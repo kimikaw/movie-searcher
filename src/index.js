@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-ReactDOM.render(<h1>Movie-searcher app</h1>, document.getElementById('root'))
+import App from './App'
 
-if (module.hot) module.hot.accept
+ReactDOM.render(<App />, document.getElementById('root'))
